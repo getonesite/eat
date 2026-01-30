@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore One Eats menu - Authentic Indian cuisine including biryani, curries, tandoori, desserts and more. Order online now!">
+    <meta name="keywords" content="Indian food menu, biryani, curry, tandoori, desserts, online ordering">
+    <link rel="icon" type="image/png" href="favicon.png">
+    <title>Menu - One Eats</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav container">
+            <a href="index.html" class="logo">
+                <img src="https://mgx-backend-cdn.metadl.com/generate/images/940369/2026-01-30/f2447f55-512c-478e-9713-5160bc536b79.png" alt="One Eats Logo">
+                <span class="text-gradient">One Eats</span>
+            </a>
+            
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="menu.html" class="nav-links active">Menu</a>
+                <a href="gallery.html">Gallery</a>
+            </div>
+            
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="menu.html">Menu</a>
+        <a href="gallery.html">Gallery</a>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero" style="min-height: 50vh;">
+        <div class="hero-background">
+            <img src="https://mgx-backend-cdn.metadl.com/generate/images/940369/2026-01-30/d8952467-9300-4cb9-9526-b1cb754c8db7.png" alt="Indian Thali">
+        </div>
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1 class="hero-title">Our <span class="text-gradient">Menu</span></h1>
+            <p class="hero-subtitle">Discover authentic flavors from across India</p>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section class="section">
+        <div class="container">
+            <div class="section-title reveal">
+                <h2>Explore Our <span class="text-gradient">Delicious Menu</span></h2>
+                <p>Fresh ingredients, traditional recipes, unforgettable taste</p>
+            </div>
+            
+            <!-- Menu Tabs -->
+            <div class="menu-tabs reveal">
+                <button class="menu-tab active" data-category="starters" style="color: #ffffff;">Starters</button>
+                <button class="menu-tab" data-category="mains" style="color: #ffffff;">Main Course</button>
+                <button class="menu-tab" data-category="breads" style="color: #ffffff;">Breads</button>
+                <button class="menu-tab" data-category="desserts" style="color: #ffffff;">Desserts</button>
+                <button class="menu-tab" data-category="beverages" style="color: #ffffff;">Beverages</button>
+            </div>
+            
+            <!-- Starters -->
+            <div id="starters" class="menu-content active grid grid-2">
+                <div class="menu-item reveal">
+                    <div class="menu-item-info">
+                        <h4>Paneer Tikka</h4>
+                        <p>Grilled cottage cheese marinated in aromatic spices</p>
+                    </div>
+                    <div class="menu-item-price">₹280</div>
+                </div>
+                
+                <div class="menu-item reveal">
+                    <div class="menu-item-info">
+                        <h4>Chicken Tikka</h4>
+                        <p>Tender chicken pieces marinated in yogurt and spices</p>
+                    </div>
+                    <div class="menu-item-price">₹320</div>
+                </div>
+                
+                <div class="menu-item reveal">
+                    <div class="menu-item-info">
+                        <h4>Samosa (2 pcs)</h4>
+                        <p>Crispy pastry filled with spiced potatoes and peas</p>
+                    </div>
+                    <div class="menu-item-price">₹80</div>
+                </div>
+                
+                <div class="menu-item reveal">
+                    <div class="menu-item-info">
+                        <h4>Hara Bhara Kabab</h4>
+                        <p>Spinach and green peas patties, pan-fried to perfection</p>
+                    </div>
+                    <div class="menu-item-price">₹240</div>
+                </div>
+                
+                <div class="menu-item reveal">
+                    <div class="menu-item-info">
+                        <h4>Tandoori Chicken (Half)</h4>
+                        <p>Classic tandoori chicken with traditional spices</p>
+                    </div>
+                    <div class="menu-item-price">₹380</div>
+                </div>
+                
+                <div class="menu-item reveal">
+                    <div class="menu-item-info">
+                        <h4>Pani Puri (8 pcs)</h4>
+                        <p>Crispy puris with spicy tangy water and fillings</p>
+                    </div>
+                    <div class="menu-item-price">₹120</div>
+                </div>
+            </div>
+            
+            <!-- Main Course -->
+            <div id="mains" class="menu-content grid grid-2">
+                <div class="menu-item reveal">
+                    <div class="menu-item-info">
+                        <h4>Chicken Biryani</h4>
+                        <p>Aromatic basmati rice with tender chicken and spices</p>
+                    </div>
+                    <div class="menu-item-price">₹380</div>
+                </div>
+                
+                <div class="menu-item reveal">
+                    <div class="menu-item-info">
+                        <h4>Mutton Biryani</h4>
+                        <p>Fragrant rice layered with succulent mutton pieces</p>
+                    </div>
+                    <div class="menu-item-price">₹480</div>
+                </div>
+                
+                <div class="menu-item reveal">
+                    <div class="menu-item-info">
+                        <h4>Veg Biryani</h4>
+                        <p>Mixed vegetables and basmati rice with aromatic spices</p>
+                    </div>
+                    <div class="menu-item-price">₹280</div>
+                </div>
+                
+                <div class="menu-item reveal">
+                    <div class="menu-item-info">
+                        <h4>Butter Chicken</h4>
+                        <p>Creamy tomato-based curry with tender chicken pieces</p>
+                    </div>
+                    <div class="menu-item-price">₹380</div>
+                </div>
+                
+                <div class="menu-item reveal">
+                    <div class="menu-item-info">
+                        <h4>Paneer Butter Masala</h4>
+                        <p>Cottage cheese in rich tomato and cashew gravy</p>
+                    </div>
+                    <div class="menu-item-price">₹320</div>
+                </div>
+                
+                <div class="menu-item reveal">
+                    <div class="menu-item-info">
+                        <h4>Dal Makhani</h4>
+                        <p>Slow-cooked black lentils in creamy tomato sauce</p>
+                    </div>
+                    <div class="menu-item-price">₹260</div>
+                </div>
+                
+                <div class="menu-item reveal">
+                    <div class="menu-item-info">
+                        <h4>Masala Dosa</h4>
+                        <p>Crispy rice crepe with spiced potato filling</p>
+                    </div>
+                    <div class="menu-item-price">₹180</div>
+                </div>
+                
+                <div class="menu-item reveal">
+                    <div class="menu-item-info">
+                        <h4>Chole Bhature</h4>
+                        <p>Spicy chickpea curry with fluffy fried bread</p>
+                    </div>
+                    <div class="menu-item-price">₹220</div>
+                </div>
+            </div>
+            
+            <!-- Breads -->
+            <div id="breads" class="menu-content grid grid-2">
+                <div class="menu-item reveal">
+                    <div class="menu-item-info">
+                        <h4>Butter Naan</h4>
+                        <p>Soft leavened bread brushed with butter</p>
+                    </div>
+                    <div class="menu-item-price">₹60</div>
+                </div>
+                
+                <div class="menu-item reveal">
+                    <div class="menu-item-info">
+                        <h4>Garlic Naan</h4>
+                        <p>Naan topped with fresh garlic and cilantro</p>
+                    </div>
+                    <div class="menu-item-price">₹80</div>
+                </div>
+                
+                <div class="menu-item reveal">
+                    <div class="menu-item-info">
+                        <h4>Tandoori Roti</h4>
+                        <p>Whole wheat bread cooked in tandoor</p>
+                    </div>
+                    <div class="menu-item-price">₹40</div>
+                </div>
+                
+                <div class="menu-item reveal">
+                    <div class="menu-item-info">
+                        <h4>Cheese Naan</h4>
+                        <p>Naan stuffed with melted cheese</p>
+                    </div>
+                    <div class="menu-item-price">₹120</div>
+                </div>
+                
+                <div class="menu-item reveal">
+                    <div class="menu-item-info">
+                        <h4>Laccha Paratha</h4>
+                        <p>Layered whole wheat flatbread</p>
+                    </div>
+                    <div class="menu-item-price">₹70</div>
+                </div>
+                
+                <div class="menu-item reveal">
+                    <div class="menu-item-info">
+                        <h4>Kulcha</h4>
+                        <p>Soft leavened bread with various fillings</p>
+                    </div>
+                    <div class="menu-item-price">₹90</div>
+                </div>
+            </div>
+            
+            <!-- Desserts -->
+            <div id="desserts" class="menu-content grid grid-2">
+                <div class="menu-item reveal">
+                    <div class="menu-item-info">
+                        <h4>Gulab Jamun (2 pcs)</h4>
+                        <p>Soft milk dumplings soaked in rose-flavored syrup</p>
+                    </div>
+                    <div class="menu-item-price">₹100</div>
+                </div>
+                
+                <div class="menu-item reveal">
+                    <div class="menu-item-info">
+                        <h4>Rasmalai (2 pcs)</h4>
+                        <p>Soft cheese patties in sweetened milk</p>
+                    </div>
+                    <div class="menu-item-price">₹140</div>
+                </div>
+                
+                <div class="menu-item reveal">
+                    <div class="menu-item-info">
+                        <h4>Gajar Halwa</h4>
+                        <p>Traditional carrot pudding with nuts</p>
+                    </div>
+                    <div class="menu-item-price">₹120</div>
+                </div>
+                
+                <div class="menu-item reveal">
+                    <div class="menu-item-info">
+                        <h4>Kulfi (Malai/Mango)</h4>
+                        <p>Traditional Indian ice cream on a stick</p>
+                    </div>
+                    <div class="menu-item-price">₹80</div>
+                </div>
+                
+                <div class="menu-item reveal">
+                    <div class="menu-item-info">
+                        <h4>Jalebi</h4>
+                        <p>Crispy sweet spirals soaked in sugar syrup</p>
+                    </div>
+                    <div class="menu-item-price">₹90</div>
+                </div>
+                
+                <div class="menu-item reveal">
+                    <div class="menu-item-info">
+                        <h4>Kheer</h4>
+                        <p>Creamy rice pudding with cardamom and nuts</p>
+                    </div>
+                    <div class="menu-item-price">₹100</div>
+                </div>
+            </div>
+            
+            <!-- Beverages -->
+            <div id="beverages" class="menu-content grid grid-2">
+                <div class="menu-item reveal">
+                    <div class="menu-item-info">
+                        <h4>Mango Lassi</h4>
+                        <p>Refreshing yogurt drink with mango pulp</p>
+                    </div>
+                    <div class="menu-item-price">₹120</div>
+                </div>
+                
+                <div class="menu-item reveal">
+                    <div class="menu-item-info">
+                        <h4>Sweet Lassi</h4>
+                        <p>Traditional sweetened yogurt drink</p>
+                    </div>
+                    <div class="menu-item-price">₹80</div>
+                </div>
+                
+                <div class="menu-item reveal">
+                    <div class="menu-item-info">
+                        <h4>Masala Chai</h4>
+                        <p>Spiced Indian tea with milk</p>
+                    </div>
+                    <div class="menu-item-price">₹60</div>
+                </div>
+                
+                <div class="menu-item reveal">
+                    <div class="menu-item-info">
+                        <h4>Fresh Lime Soda</h4>
+                        <p>Refreshing lime juice with soda water</p>
+                    </div>
+                    <div class="menu-item-price">₹70</div>
+                </div>
+                
+                <div class="menu-item reveal">
+                    <div class="menu-item-info">
+                        <h4>Buttermilk (Chaas)</h4>
+                        <p>Spiced yogurt drink, perfect with meals</p>
+                    </div>
+                    <div class="menu-item-price">₹60</div>
+                </div>
+                
+                <div class="menu-item reveal">
+                    <div class="menu-item-info">
+                        <h4>Filter Coffee</h4>
+                        <p>Traditional South Indian filter coffee</p>
+                    </div>
+                    <div class="menu-item-price">₹80</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="section" style="background: var(--color-secondary);">
+        <div class="container">
+            <div class="reveal" style="text-align: center; max-width: 800px; margin: 0 auto;">
+                <h2 style="margin-bottom: 24px;">Hungry? <span class="text-gradient">Order Now!</span></h2>
+                <p style="font-size: 18px; margin-bottom: 32px;">Get your favorite dishes delivered hot and fresh to your doorstep</p>
+                <div style="display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;">
+                    <a href="tel:+919876543210" class="btn btn-primary">Call to Order</a>
+                    <a href="https://wa.me/919876543210" class="btn btn-secondary">WhatsApp Us</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>One Eats</h3>
+                    <p>Bringing authentic Indian flavors to your doorstep. Fresh, fast, and delicious.</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <a href="index.html">Home</a>
+                    <a href="about.html">About Us</a>
+                    <a href="menu.html">Menu</a>
+                    <a href="gallery.html">Gallery</a>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Contact Us</h3>
+                    <p><a href="tel:+919876543210">📞 +91 98765 43210</a></p>
+                    <p><a href="mailto:getonesite@gmail.com">📧 getonesite@gmail.com</a></p>
+                    <p><a href="https://maps.app.goo.gl/3aihVGvKejuQwFV68">📍 123 Food Street, Mumbai, India</a></p>
+                </div>
+                
+            <div class="footer-section">
+                <h3>Follow Us</h3>
+            <div class="social-links">
+    <a href="#" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+    <a href="#" target="_blank" aria-label="Facebook Page"><i class="fa-brands fa-facebook"></i></a>
+    <a href="#" target="_blank" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+    <a href="#" target="_blank" aria-label="X (Twitter)"><i class="fa-brands fa-x-twitter"></i></a>
+    <a href="#" target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+        </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2026 One Eats. All rights reserved. | Designed with ❤️ for food lovers</p>
+            </div>
+        </div>
+    </footer>
+
+<!-- Floating Order Button -->
+<a href="tel:+5551234567" class="floating-order-btn">Order Now</a>
+
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="./script.js"></script>
+</body>
+
+</html>
